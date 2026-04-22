@@ -17,3 +17,10 @@ for (let i = 0; i <= 10; i++)
 /* Cuenta regresiva */
 for (let i = 10; i > 0; i--)
   console.log(i);
+
+/* Factorial de un número */
+const numeroFactorial = prompt('Intorduce el número del que quieres que te calcule el factorial')
+let acumuladoFactorial = 1;
+for (let i = numeroFactorial; i >= 1; i--)
+  acumuladoFactorial *= i;
+console.log(`${numeroFactorial}! = ${acumuladoFactorial}`)
