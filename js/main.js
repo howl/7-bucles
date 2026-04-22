@@ -13,3 +13,7 @@ for (let i = 1; i <= 50; i++)
 let numeroMultiplicar = prompt('¿De qué número quieres la tabla de multiplicar?');
 for (let i = 0; i <= 10; i++)
   console.log(`${numeroMultiplicar} x ${i} = ${numeroMultiplicar * i}`);
+
+/* Cuenta regresiva */
+for (let i = 10; i > 0; i--)
+  console.log(i);
