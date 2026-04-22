@@ -10,7 +10,7 @@ for (let i = 1; i <= 50; i++)
     console.log(i);
 
 /* Tabla de multiplicar */
-let numeroMultiplicar = prompt('¿De qué número quieres la tabla de multiplicar?');
+const numeroMultiplicar = prompt('¿De qué número quieres la tabla de multiplicar?');
 for (let i = 0; i <= 10; i++)
   console.log(`${numeroMultiplicar} x ${i} = ${numeroMultiplicar * i}`);
 
